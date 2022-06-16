@@ -1,0 +1,34 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/2
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name":"agus sulistiono",
+    "email": "agussss@gmail.com",
+    "gender":"male"
+}
+
+
+###
+PATCH  http://localhost:3000/users/2
+Content-Type: application/json
+
+{
+    "name":"akham puri",
+    "email": "akhmapuri@gmail.com",
+    "gender":"male"
+}
+
+DELETE http://localhost:3000/users/2
+Content-Type: application/json
+
+{
+    "name":"akham puri",
+    "email": "akhmapuri@gmail.com",
+    "gender":"male"
+}
